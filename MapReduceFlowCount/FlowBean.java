@@ -33,6 +33,10 @@ public class FlowBean implements Writable {
         this.sumFlow = upFlow + downFlow;
     }
 
+    public void getUpFlow(){
+        return this.upFlow;
+    }
+
 
     /**
      * 序列化

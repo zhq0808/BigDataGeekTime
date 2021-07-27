@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CountPhoneNumFlow">
+    <output-path>$PROJECT_DIR$/out/artifacts/CountPhoneNumFlow</output-path>
+    <root id="archive" name="CountPhoneNumFlow.jar" />
+  </artifact>
+</component>
