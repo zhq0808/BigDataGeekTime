@@ -10,12 +10,6 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.util.ToolRunner;
 
-public class FlowJobber extends Configured implements Tool {
-    public int run(String[] args) throws Exception{
-
-    }
-}
-
 public class FlowJobber{
     public static void main(String[] args) throws IOException, InterruptedException, ClassNotFoundException {
         Configuration conf = new Configuration();

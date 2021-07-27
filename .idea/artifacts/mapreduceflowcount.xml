@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="mapreduceflowcount">
+    <output-path>$PROJECT_DIR$/out/artifacts/mapreduceflowcount</output-path>
+    <root id="archive" name="mapreduceflowcount.jar" />
+  </artifact>
+</component>
