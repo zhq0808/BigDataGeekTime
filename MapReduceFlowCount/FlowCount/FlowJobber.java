@@ -15,14 +15,20 @@ public class FlowJobber{
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "telescope");
 
-        //指定mapper，reduce类
+        args = new String[]{"/user/student/telescope/resources/HTTP_20130313143750.dat", "/user/student/telescope/resources/result`"};
+
+        //1、指定本程序jar包所在的本地路径
         job.setJarByClass(FlowJobber.class);
+
+        //2、指定mapper，reduce类
         job.setMapperClass(FlowCountMapper.class);
         job.setReduceClass(FlowCountReduce.class);
-        //指定输入数据类型
+
+        //3、指定输入数据类型
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(FlowBean.class);
-        //指定输出数据类型
+
+        //4、指定输出数据类型
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(FlowBean.class);
 

@@ -37,6 +37,10 @@ public class FlowBean implements Writable {
         return this.upFlow;
     }
 
+    public void getDownFlow(){
+        return this.downFlow;
+    }
+
 
     /**
      * 序列化
