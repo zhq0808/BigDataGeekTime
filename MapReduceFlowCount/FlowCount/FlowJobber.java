@@ -15,7 +15,7 @@ public class FlowJobber{
         Configuration conf = new Configuration();
         Job job = Job.getInstance(conf, "telescope");
 
-        args = new String[]{"/user/student/telescope/resources/HTTP_20130313143750.dat", "/user/student/telescope/resources/result`"};
+        args = new String[]{"/user/student/telescope/resources/HTTP_20130313143750.dat", "/user/student/telescope/resources/result"};
 
         //1、指定本程序jar包所在的本地路径
         job.setJarByClass(FlowJobber.class);
